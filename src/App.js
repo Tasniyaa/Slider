@@ -39,8 +39,10 @@ const App= ()=> {
 
   return (
     <div className='m-4'>
-     <Table/>
 
+    <Card2/>
+
+    {/* <Table/>
     <BarChart/>
     <PieChart/>
     <LineChart/>
@@ -214,7 +216,7 @@ const App= ()=> {
 
       <h1>Slider</h1>
       <FramerSlider/>
-      <SlickSlider/> 
+      <SlickSlider/>  */}
     </div> 
   );
 }
